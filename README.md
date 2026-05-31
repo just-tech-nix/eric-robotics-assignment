@@ -2,8 +2,8 @@
 
 ## Candidate Details
 - **Full Name:** `Nilesh Kowe`
-- **Contact Number:** `<YOUR_CONTACT_NUMBER>`
-- **Email ID:** `<YOUR_EMAIL_ID>`
+- **Contact Number:** `+91 9325375887`
+- **Email ID:** `phoenixholand1@gmail.com`
 
 > **Note**: An extensive assignment report and system walk-through has been prepared at [FSD_Assignment_1_Report.md](file:///F:/hermes/projects/Assignment%20-%20ERIC%20Robotics/681ec28e49cbdfeabb03a784ce838ff1-58711edafc6b1734880ace5a8b339bc0b2dfef70/FSD_Assignment_1_Report.md). It contains detailed explanations of our approach, design decisions, and screenshots of every component.
 

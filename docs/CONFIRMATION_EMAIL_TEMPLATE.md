@@ -19,9 +19,9 @@ I have completed and submitted the Full Stack Developer assignment for ERIC Robo
 Please find my submission details below:
 
 Full Name: Nilesh Kowe
-GitHub Username: <YOUR_GITHUB_USERNAME>
-Contact Number: <YOUR_CONTACT_NUMBER>
-Email ID: <YOUR_EMAIL_ID>
+GitHub Username: just-tech-nix
+Contact Number: +91 9325375887
+Email ID: phoenixholand1@gmail.com
 
 Repository Link: <YOUR_GITHUB_REPOSITORY_LINK>
 
