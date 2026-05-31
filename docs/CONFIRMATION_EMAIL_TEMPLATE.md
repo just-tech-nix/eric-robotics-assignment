@@ -24,6 +24,7 @@ Contact Number: +91 9325375887
 Email ID: phoenixholand1@gmail.com
 
 Repository Link: https://github.com/just-tech-nix/eric-robotics-assignment
+Live Demo Link: https://eric-robotics-unified-production.up.railway.app
 
 Thank you for your time and consideration.
 
