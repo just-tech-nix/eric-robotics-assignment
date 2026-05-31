@@ -23,7 +23,7 @@ GitHub Username: just-tech-nix
 Contact Number: +91 9325375887
 Email ID: phoenixholand1@gmail.com
 
-Repository Link: <YOUR_GITHUB_REPOSITORY_LINK>
+Repository Link: https://github.com/just-tech-nix/eric-robotics-assignment
 
 Thank you for your time and consideration.
 
