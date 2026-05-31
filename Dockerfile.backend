@@ -1,0 +1,31 @@
+FROM ros:humble
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Install ROS packages
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    ros-humble-slam-toolbox \
+    ros-humble-rosbridge-server \
+    ros-humble-pointcloud-to-laserscan \
+    ros-humble-tf2-ros \
+    ros-humble-tf2-geometry-msgs \
+    python3-pip \
+    python3-yaml \
+    python3-numpy \
+    python3-pil \
+    && rm -rf /var/lib/apt/lists/*
+
+# Create ROS workspace
+WORKDIR /ros2_ws/src
+COPY eric_sim/ ./eric_sim/
+
+# Build workspace
+WORKDIR /ros2_ws
+RUN /bin/bash -c 'source /opt/ros/humble/setup.bash && colcon build --symlink-install'
+
+# Copy entrypoint
+COPY docker/entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+
+ENTRYPOINT ["/entrypoint.sh"]
+CMD ["ros2", "launch", "eric_sim", "eric_full_stack.launch.py"]

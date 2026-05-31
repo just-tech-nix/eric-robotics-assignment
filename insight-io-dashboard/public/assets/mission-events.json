@@ -1,0 +1,56 @@
+[
+  {
+    "id": "evt-launch",
+    "timestamp": 0,
+    "label": "Launch",
+    "severity": "info",
+    "uiTarget": "status",
+    "description": "Mission leaves the staging rail and enters the live route.",
+    "seekTime": 0
+  },
+  {
+    "id": "evt-obstacle",
+    "timestamp": 2400,
+    "label": "Obstacle lock",
+    "severity": "warn",
+    "uiTarget": "camera",
+    "description": "A forklift drifts into the path and triggers a controlled slowdown.",
+    "seekTime": 2400
+  },
+  {
+    "id": "evt-assist",
+    "timestamp": 3600,
+    "label": "Assist request",
+    "severity": "warn",
+    "uiTarget": "controls",
+    "description": "Remote operator assistance is requested for a precise passing decision.",
+    "seekTime": 3600
+  },
+  {
+    "id": "evt-manual",
+    "timestamp": 5800,
+    "label": "Manual handoff",
+    "severity": "critical",
+    "uiTarget": "controls",
+    "description": "Manual steering takes over briefly to complete a tight alignment turn.",
+    "seekTime": 5800
+  },
+  {
+    "id": "evt-slip",
+    "timestamp": 8200,
+    "label": "Traction slip",
+    "severity": "warn",
+    "uiTarget": "map",
+    "description": "Surface slip compensation appears on the route and the cloud stays visible for context.",
+    "seekTime": 8200
+  },
+  {
+    "id": "evt-checkpoint",
+    "timestamp": 10000,
+    "label": "Checkpoint",
+    "severity": "info",
+    "uiTarget": "status",
+    "description": "The route settles into a final checkpoint with the system ready for the next dispatch.",
+    "seekTime": 10000
+  }
+]

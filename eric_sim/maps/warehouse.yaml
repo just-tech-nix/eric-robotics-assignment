@@ -1,0 +1,60 @@
+world:
+  frame_id: map
+  width: 40.0
+  height: 25.0
+  resolution: 0.05
+
+robot:
+  radius: 0.35
+  initial_x: 3.0
+  initial_y: 3.0
+  initial_yaw: 0.0
+
+walls:
+  - [0.0, 0.0, 40.0, 0.0]
+  - [40.0, 0.0, 40.0, 25.0]
+  - [40.0, 25.0, 0.0, 25.0]
+  - [0.0, 25.0, 0.0, 0.0]
+
+obstacles:
+  - type: box
+    x: 8.0
+    y: 5.0
+    width: 4.0
+    height: 2.0
+    height_z: 1.8
+
+  - type: box
+    x: 17.0
+    y: 10.0
+    width: 5.0
+    height: 3.0
+    height_z: 2.2
+
+  - type: rack
+    x: 25.0
+    y: 6.0
+    width: 10.0
+    height: 1.5
+    height_z: 2.5
+
+  - type: box
+    x: 12.0
+    y: 18.0
+    width: 3.0
+    height: 4.0
+    height_z: 1.5
+
+  - type: rack
+    x: 30.0
+    y: 15.0
+    width: 6.0
+    height: 1.0
+    height_z: 3.0
+
+  - type: box
+    x: 5.0
+    y: 12.0
+    width: 2.0
+    height: 2.0
+    height_z: 1.0
